@@ -1,0 +1,20 @@
+public class Jess
+{
+      public static void main(String [] args){
+          int [] arr ={3,7,1,7,5,0,2,7,4};
+          int target = 7;
+          System.out.print("Ngee");
+          for (int num : arr ){
+            System.out.print(num + "");
+            }
+          System.out.println("\nTarget:" + target);
+          
+          int count = 0;
+          for(int num: arr){
+              if(num == target){
+                  count++;
+                }
+          } 
+          System.out.println("The number" +  "appears" +  "count" +  "times");
+        }
+}
